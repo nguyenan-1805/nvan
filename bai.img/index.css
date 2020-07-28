@@ -1,0 +1,23 @@
+
+.list-product {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.product .avatar {
+    max-width: 350px;
+
+}
+.product .avata {
+    transform: scale(1.1);
+}
+.product .title-product {
+    text-align: center;
+    margin-top: 16px;
+}
